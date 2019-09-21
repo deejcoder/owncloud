@@ -1,5 +1,5 @@
-Alias /owncloud "/var/www/owncloud/"
-<Directory /var/www/owncloud/>
+Alias /owncloud "/var/www/owncloud"
+<Directory /var/www/owncloud>
   Options +FollowSymlinks
   AllowOverride All
  <IfModule mod_dav.c>
